@@ -1,0 +1,143 @@
+/* 	
+ * Autor: Carlos Hans de Oliveira - Gestor de TI 
+ * Data Criação: 15/06/2017
+ * Data de Modificação: 19/06/2017
+ * Cliente: SEDECT - Prefeitura de São Vicente
+ * Sistema: Gerenciamento de solicitações internas de serviços da SEDECT
+ * Copyright 2017 Prefeitura de São Vicente.
+ * Arquivo estilo - css3
+*/
+
+#sombraletra {
+	font-weight: bold;
+	color: #ffffff;
+	text-shadow: #000000 5px 5px 5px; 
+}
+
+#sombraletrapreta {
+	font-weight: bold;
+	color: #000000;
+	text-shadow: #666666 5px 5px 5px; 
+}
+
+#sombraletraerro {
+	font-weight: bold;
+	color: #660000;
+	text-shadow: #666666 5px 5px 5px;
+	text-align: center;  
+}
+
+#sombraletradestaque {
+	font-weight: bold;
+	color: #A0522D;
+	text-shadow: #666666 5px 5px 5px; 	
+}
+
+#letradestaque {
+	font-weight: bold;
+	color: #A0522D;
+}
+
+#separador {
+    width: 100%; /* coloque aqui a largura da linha */
+    border-top: 1px solid #000;
+    list-style-type: none;
+}
+
+#bordagrid1 {
+	background-color:lavender;
+	border: 1px solid #888; 
+	border-radius:3px;	
+}
+
+#bordagrid2 {
+	background-color:lavenderblush;
+	border: 1px solid #888; 
+	border-radius:3px;	
+}
+
+#corfundoinicial {
+	background-color: #336666;
+}
+
+#corfundogradright {
+	background-color: #e5e5e5;
+	background-image: linear-gradient(to right,#e5e5e5,#e5e5e5)
+}
+
+#corfundogradleft {
+	background-color: #336666;
+	background-image: linear-gradient(to left,#B0C4DE,#9FB6CD)
+}
+
+.cursormousemao { /* Pointer: Objeto clicável; */
+  cursor:pointer;
+}
+.cursormousecrosshair { /* Crosshair: Para precisão; posicionamento;  */
+	cursor:crosshair;
+}
+.cursormousedefault { /* default: Padrão do sistema (seta); */
+	cursor:default;
+}
+.cursormousemove { /* move: Objeto móvel; */
+	cursor:move;
+}
+.cursormousetext { /* text: Selecionar ou editar um texto; */
+	cursor:text;
+}
+.cursormousewait { /* wait: Icone de espera ou carregamento; */
+	cursor:wait;
+}
+.cursormousehelp { /* help: Ajuda; */
+	cursor:help;
+}
+.cursormouseeresize { /* e-resize: Direita; */
+	cursor:e-resize;
+}
+.cursormouseneresize { /* ne-resize: Diagonal cima-direita; */
+	cursor:ne-resize;
+}
+.cursormousenresize { /* n-resize: Cima; */
+	cursor:n-resize;
+}
+.cursormousenwresize { /* nw-resize: Diagonal cima-esquerda; */
+	cursor:nw-resize;
+}
+.cursormousewresize { /* w-resize: Esquerda; */
+	cursor:w-resize;
+}
+.cursormouseswresize { /* sw-resize: Diagonal baixo-esquerda; */
+	cursor:sw-resize;
+}
+.cursormousesresize { /* s-resize: Baixo; */
+	cursor:s-resize;
+}
+.cursormouseseresize { /* se-resize: Diagonal baixo-direita; */
+	cursor:se-resize;
+}
+ 
+ 
+.marginBottom-0 {margin-bottom:0;}
+.dropdown-submenu{position:relative;}
+.dropdown-submenu>.dropdown-menu{top:0;left:100%;margin-top:-6px;margin-left:-1px;-webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;}
+.dropdown-submenu>a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent;border-style:solid;border-width:5px 0 5px 5px;border-left-color:#cccccc;margin-top:5px;margin-right:-10px;}
+.dropdown-submenu:hover>a:after{border-left-color:#555;}
+.dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
+
+/* classes para controle e style do SWEETALERT2*/
+.swal-wide{
+	background-color: #97FFFF;
+	background-image: linear-gradient(to left,#E0FFFF,#FFFAFA);
+	/*opacity:0.98;-moz-opacity: 0.98;filter: alpha(opacity=98);*/
+}	
+
+/* Centralizando um objeto */
+.centro {
+	position:absolute; 
+	top:15%; 
+	left:17%; 
+	margin-top:-10px; 
+	margin-left:-10px; 
+	border: none;	
+}
+
